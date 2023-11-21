@@ -20,10 +20,11 @@ for (int i = 0; i < n; i++)
             
             
         }
-                      
+        else
+        {                   
         matrix[i][j]=0;
         printf("%d ", matrix[i][j]);
-        
+        }
         
         
     }
